@@ -1,6 +1,6 @@
 const Tournament = require("../models/Tournament");
 
-// ✅ **Create Tournament**
+
 exports.createTournament = async (req, res) => {
     try {
         const { map, entryFee, winningCriteria, prize, gameMode, matchStartTime } = req.body;
